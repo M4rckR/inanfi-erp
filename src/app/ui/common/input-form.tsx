@@ -16,7 +16,7 @@ interface InputFormProps<T extends Record<string, unknown>> {
   label?: string;
   description?: string;
   placeholder?: string;
-  type?: string | number;
+  type?: string;
   className?: string;
 }
 
@@ -26,7 +26,7 @@ export function InputForm<T extends Record<string, unknown>>({
   label,
   description,
   placeholder = "",
-  type = "string",
+  type = "text",
   className,
 }: InputFormProps<T>) {
   return (
