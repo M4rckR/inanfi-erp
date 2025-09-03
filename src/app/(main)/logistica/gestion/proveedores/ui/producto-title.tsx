@@ -13,7 +13,7 @@ export default function ProductoTitle() {
     <Card>
         <CardHeader >
           <CardTitle className="text-2xl">Producto del Provedor {proveedor?.pvdNom}</CardTitle>
-          <CardDescription>Raz. Soc. - {proveedor?.pvdRazSoc} | Documento - {proveedor?.pvdNumDoc} </CardDescription>
+          <CardDescription>Raz.: {proveedor?.pvdRazSoc} | Documento: {proveedor?.pvdNumDoc} </CardDescription>
         </CardHeader>
       </Card>
   )

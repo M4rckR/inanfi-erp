@@ -7,8 +7,8 @@ export default function ProveedoresPages() {
   return (
     <div className="flex flex-col gap-4 md:gap-6 md:py-2">
       <Card>
-        <CardHeader className='justify-center'>
-          <CardTitle className="text-2xl flex items-center"> <Handshake/> Proveedores</CardTitle>
+        <CardHeader >
+          <CardTitle className="text-2xl flex"> Proveedores</CardTitle>
           <CardDescription>Proveedores de InSalud</CardDescription>
         </CardHeader>
       </Card>
